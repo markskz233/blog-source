@@ -51,5 +51,7 @@ jobs:
         host: ${{ secrets.USER_HOST }}
         username: ${{ secrets.USER_NAME }}
         password: ${{ secrets.USER_PASS }}
+        strip_components: 1
+        overwrite: true
         source: './public/*'
         target: /www/wwwroot/mark_home
