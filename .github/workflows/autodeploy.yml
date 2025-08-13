@@ -46,11 +46,11 @@ jobs:
         hexo generate
 
     - name: 部署到云服务器
-      uses: cross-the-world/scp-pipeline@master
+      uses: easingthemes/ssh-deploy@main
       with:
-        host: ${{ secrets.USER_HOST }}
-        user: ${{ secrets.USER_NAME }}
-        pass: ${{ secrets.USER_PASS }}
-        connect_timeout: 10s
-        local: './.deploy_git/*'
-        remote: /www/wwwroot/mark_home
+        REMOTE_HOST: ${{ secrets.USER_HOST }}
+        REMOTE_USER: ${{ secrets.USER_NAME }}
+        SSH_PRIVATE_KEY: ${{ secrets.USER_PASS }}
+        ARGS: "-avz --delete"
+        SOURCE: './.deploy_git/*'
+        TARGET: /www/wwwroot/mark_home
