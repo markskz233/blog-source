@@ -46,11 +46,10 @@ jobs:
         hexo generate
 
     - name: 部署到云服务器
-      uses: easingthemes/ssh-deploy@main
+      uses: appleboy/scp-action@v1
       with:
-        REMOTE_HOST: ${{ secrets.USER_HOST }}
-        REMOTE_USER: ${{ secrets.USER_NAME }}
-        SSH_PRIVATE_KEY: ${{ secrets.USER_PASS }}
-        ARGS: "-avz --delete"
-        SOURCE: './.deploy_git/*'
-        TARGET: /www/wwwroot/mark_home
+        host: ${{ secrets.USER_HOST }}
+        username: ${{ secrets.USER_NAME }}
+        password: ${{ secrets.USER_PASS }}
+        source: './.deploy_git/*'
+        target: /www/wwwroot/mark_home
