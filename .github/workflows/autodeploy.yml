@@ -51,6 +51,5 @@ jobs:
         host: ${{ secrets.USER_HOST }}
         username: ${{ secrets.USER_NAME }}
         password: ${{ secrets.USER_PASS }}
-        strip_components: 0
-        source: './.deploy_git/*'
+        source: './.deploy_git'
         target: /www/wwwroot/mark_home
