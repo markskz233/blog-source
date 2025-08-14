@@ -10,7 +10,7 @@ on:
       - published
 
 jobs:
- checkout:
+ release:
   runs-on: ubuntu-latest
   steps:
     - name: 检查分支
