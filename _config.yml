@@ -5,7 +5,7 @@
 # Site
 title: MarkCup
 subtitle: ''
-description: 'Become a great person'
+description: ''
 keywords:
 author: MarK_MkSaMa
 language: zh-CN
@@ -96,9 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: solitude
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 
+  type: ''
