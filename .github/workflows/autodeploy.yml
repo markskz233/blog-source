@@ -54,4 +54,4 @@ jobs:
         strip_components: 1
         remove: true
         source: './public/*'
-        target: /www/wwwroot/mark_home/blog
+        target: /www/wwwroot/home/blog
