@@ -31,12 +31,22 @@ nav:
   # Left Box
   # 左侧盒子
   group:
+    博客:
+      个人主页: http://121.196.247.213/ || /img/pwa/favicon.ico
+      博客: http://121.196.247.213:26080/ || /img/pwa/favicon.ico
   #  project: # name
   #    Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
 
   # Menu
   # 菜单
   menu:
+    首页: /
+    文库:
+      全部文章: /archives/ || fas fa-folder-closed
+      全部分类: /categories/ || fas fa-clone
+      全部标签: /tags/ || fas fa-tags
+    关于:
+      我的介绍: /about/ || fas fa-user
     # 首页: / # name: link
     # 文库: # name
     #   全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
@@ -367,8 +377,8 @@ font:
 # Background
 # 背景图片
 background:
-  enable: false
-  opacity: .2
+  enable: true
+  opacity: 1
   dark: https://i.pinimg.com/originals/d8/b3/9d/d8b39d12b653810db452c437211aeb2e.png
   light: https://i.pinimg.com/originals/93/57/38/935738ed9657b296c2ef0ebd2151eb66.jpg
 # --------------------------- end ---------------------------

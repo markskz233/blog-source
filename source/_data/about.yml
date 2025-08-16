@@ -1,0 +1,124 @@
+# 悬浮标签模块
+authorinfo:
+  leftTags:
+    - 智慧大玩家
+    - 技术爱好者
+    - 安静读书人
+  rightTags:
+    - 独立开发者
+    - AI探索者
+    - 团队发动机
+  image: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/mk.jpg?sign=nhUtzQzmmhpWnR42UfIzJCvHNlFsw_7s_3yPiMMi8J8=:0
+
+# 标题
+title: 关于我
+
+# 介绍块
+# 这个模块必须写完整，如果不需要可以不写
+contentinfo: # 顶部个人信息展示
+  sup: 你好，很高兴认识你👋
+  name: 我叫马克MkSaMa # 名称
+  title: 是一名宅在家里的理工男 # 介绍
+  tip: 梦想
+  slogan: 源于伟大的梦想<br>而不断的努力，只为去
+  mask:
+    - 创造优秀的内容
+    - 做出出色的决定
+    - 写出精美的代码
+    - 成为厉害的自己
+
+# 技能图标轮播块
+# 此模块和生涯模块在一行，如不写则生涯模块单独占满一行。
+# 主要就是 tags 中的 img 和 icon 两种，其中 img 是图片地址，icon 是图标名称，你可以在 Skill Icons 中找到图标名称，你也可以自己寻找优质的图片图标。
+skills: # 根据需求添加
+  title: 技能
+  subtitle: 开启创造力
+  tags:
+    - title: C++
+      color: "#c04c8e"
+      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/C%2B%2B.png?sign=dXIfoeS0pustuWPlFhfAy6cNExEtntSCYiDXCCbTIHY=:0
+    - title: JS
+      color: "#f7cb4f"
+      icon: fab fa-js
+    - title: HTML
+      color: "#e9572b"
+      icon: fab fa-html5
+    - title: CSS
+      color: "#2196f3"
+      icon: fab fa-css3
+    - title: Git
+      color: "#df5b40"
+      icon: fab fa-git
+    - title: Python
+      color: "#ab8600"
+      icon: fab fa-python
+    - title: PhotoShop
+      color: "#4082c3"
+      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/photoshop.png?sign=PSqsN2S5983KTng5lj8H58P-5zkpDjtdXdqpaHfkASE=:0
+    - title: Premeire Pro
+      color: "#e371ff"
+      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/Pr.png?sign=D6AyxuNW2ipjl7yiCdz28lTy4zsrYkaFpCEe70QY_Gs=:0
+
+# 生涯模块
+# 生涯模块和技能图标轮播模块在一行，如不写则技能图标轮播模块单独占满一行。
+careers:
+  title: 生涯
+  subtitle: 无限进步
+  items:
+    - school: 学生
+      major: 学习Everything
+      color: "#357ef5"
+  image: 
+
+# 座右铭
+motto:
+  title: 涩话
+  prefix: 只有经过磨砺的人，
+  content: 才能知道来时路的艰辛。
+
+# 特长模块
+expertise:
+  title: 特长
+  prefix: 算命流电脑疑难杂症
+  specialist: 资深医师
+  content: 学习能力
+  level: MAX
+
+# 网站统计数据展示模块
+tj: # 统计
+  provider: custom # 值为 51la（51la网站统计）或 custom（自建统计）
+  url: https://umami-api.holyfox.net/ # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
+  img: https://i.p-i.vip/33/20250725-6883987819a97.webp # 背景
+  desc: 本站采用自建数据统计
+
+# 个人信息模块
+oneself: # 按需填写
+  location: 中国，浙江省，杭州市 # 所在位置
+  birthYear: 2008 # 生日
+  university: 浙江科技大学 # 毕业学校
+  major: 大一
+  occupation: 学生 # 职位
+  map: # 你所在位置的地图
+    light: /img/map.png # 白天
+    dark: /img/map.png # 夜晚
+
+# 自定义
+cause:
+  tip: 心路历程
+  title: 为什么建站？
+  content:
+    <br>一般来说，这里应该写一些关于自己的故事，但是，应该<b>没人会看</b>。
+    <br>
+    所以<b>直白</b>一点吧。
+    <br>
+    <b>因为闲的蛋疼_(:з」∠)_</b>
+    <br>
+
+    
+
+# 十年之约
+tenyear:
+  tips: 远方的路
+  title: 梦在远方，人在身边，路在脚下。
+  start: 2023-07-01
+  end: 2030-07-01
