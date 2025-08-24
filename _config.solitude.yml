@@ -48,7 +48,6 @@ nav:
     其他:
       每日随笔: /essay/ || fas fa-pen-nib
       音乐馆: /music/ || fas fa-music
-      最近评论: /recentcomments/ || fas fa-comment
     关于:
       我的介绍: /about/ || fas fa-user
       留言板: /message/ || fas fa-envelope
@@ -625,7 +624,7 @@ errorpage:
 # can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region,
 # the subsequent consideration of the use of JSON files to store music information and customize the implementation of the third-party API does not depend on the page.
 # Music Page
-meting_api: "http://121.196.247.213:26000/api" # Custom API
+meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" # Custom API
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -965,7 +964,7 @@ brevity:
 # Recent comments Page
 # 最近评论页面
 recent_comments:
-  enable: true
+  enable: false
   limit: 50 # ⚠️waline 仅支持最大50条评论 / ⚠️waline only supports a maximum of 50 comments
   cache: 0.2 # 1 = 1天 / 1 = 1 day
   page: /recentcomments/ # 最近评论页面 / recent comments page
