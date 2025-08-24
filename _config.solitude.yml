@@ -145,10 +145,10 @@ aside:
   # 信息卡
   my_card:
     author:
-      img: /img/logo.png # url
+      img: http://yoisakikanade.cn:9002/d/alist/Mark's Image/mk.jpg # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 只有迎风，风筝才能飞得更高。
+    description: 永远不要停下脚步，无限进步
     # 内容 / Content
     content: # 这是我的博客 / This is my Blog
     state:
@@ -158,12 +158,15 @@ aside:
       night: 早点休息
       goodnight: 晚安 😴
     witty_words:
+      - 干嘛！不许点！
       # - 你可以的
       # - 你一定可以的
       # - 祝你好运，陌生人
     # social
     # 社交信息图标
     information:
+      Github: https://github.com/markskz233 || fab fa-github
+      QQ: https://qm.qq.com/q/5KhiUaMRnG || fab fa-qq
     #  Github: https://github.com/everfu || fab fa-github # Name: link || icon
     #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
   # --------------------------- end ---------------------------
@@ -181,7 +184,7 @@ aside:
   # Tags
   # 标签
   tags:
-    enable: false
+    enable: true
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
@@ -210,7 +213,7 @@ aside:
     runtimeenable: true
     # Format: yyyy-MM-dd hh-mm-ss
     # 格式: yyyy-MM-dd hh-mm-ss
-    runtime: "2023-04-20 00:00:00"
+    runtime: "2025-08-14 00:00:00"
   # --------------------------- end ---------------------------
 # --------------------------- end ---------------------------
 
@@ -255,7 +258,7 @@ post:
     # 版权
     copyright:
       enable: true
-      author: /img/logo.png # url
+      author: http://yoisakikanade.cn:9002/d/alist/Mark's Image/mk.jpg # url
       # License
       # 许可证
       license: CC BY-NC-SA 4.0
@@ -272,20 +275,20 @@ post:
   meta:
     # Release date
     # 发布日期
-    date: false
+    date: true
     # Update date
     # 更新日期
-    updated: false
+    updated: true
     # Location
     # 位置
     locate: false
     # Number of words
     # 字数
-    wordcount: false
+    wordcount: true
     # uv
-    readtime: false
+    readtime: true
     # pv
-    pv: false
+    pv: true
     # Comment count
     # 评论数
     comment: false
@@ -309,8 +312,11 @@ post:
   # Share icon
   # 分享图标
   share:
-    enable: false
+    enable: true
     list:
+      - qq
+      - link
+      - qrcode
       # - qq
       # - weibo
       # - twitter
@@ -333,7 +339,7 @@ post:
     time: 43200000
   footer:
     enable: false
-    desc: # Articles from Ever Fu. / 文章来自 Ever Fu # description
+    desc: test # Articles from Ever Fu. / 文章来自 Ever Fu # description
     button: # Button
       enable: true
       name: # Learn more / 了解更多
@@ -417,7 +423,7 @@ index_post_list:
 # Related articles
 # 相关文章
 related_post:
-  enable: false
+  enable: true
   limit: 2
   # created: release date / updated: update date
   # created: 发布日期 / updated: 更新日期
@@ -428,13 +434,13 @@ related_post:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: false
+  enable: true
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: false
   # Whether to display the browser's context menu when hold Ctrl key.
   # 是否在按住 Ctrl 键时显示浏览器右键菜单
-  ctrlOriginalMenu: false
+  ctrlOriginalMenu: true
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
   translate: false
@@ -463,14 +469,14 @@ right_menu:
 #  information
 # 复制信息
 copy:
-  enable: false
+  enable: true
   # Turn on Link copyright information after copying.
   # 复制后链接版权信息
   copyright:
-    enable: false
+    enable: true
     # Display when the number of words copied exceeds
     # 复制文字时超过多少字数显示
-    limit: 50
+    limit: 10
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -494,14 +500,14 @@ typeit: false
 # Console
 # 控制台
 console:
-  enable: false
+  enable: true
   # Recent comments
   # 最新评论
   recentComment:
-    enable: false
+    enable: true
     # Cache time 1: 1 day / .5 : half a day
     # 缓存时间 1: 1天 / .5 : 半天
-    storage: .2
+    storage: 30
   card:
     # Tags
     # 标签
@@ -522,8 +528,8 @@ translate:
 # Right-Sidebar
 # 右下角悬停导航栏
 rightside:
-  enable: false
-  percent: false
+  enable: true
+  percent: true
   hide:
     enable: false
     translate: false
@@ -537,15 +543,23 @@ rightside:
 footer:
   # 社交图标
   information:
-    author: false # img url / false
+    author: http://yoisakikanade.cn:9002/d/alist/Mark's Image/mk.jpg # img url / false
     left:
+      Github: https://github.com/markskz233 || fab fa-github
+      BiliBili: https://space.bilibili.com/388153176 || fab fa-bilibili
       # Github: https://github.com/everfu || fab fa-github # 名称: 链接 || 图标
       # Mail: mailto:o@everfu.org || far fa-envelope
     right:
+      QQ: https://qm.qq.com/q/5KhiUaMRnG || fab fa-qq
+      网易云: https://y.music.163.com/m/user?id=1802538635 || fa fa-music
       # Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
       # Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
   # 友情链接
   group:
+    博客:
+      全部文章: /archives/ || fas fa-folder-closed
+      全部分类: /categories/ || fas fa-clone
+      全部标签: /tags/ || fas fa-tags
     # 导航:
     #   Archives: /archives/
     #   Categories: /categories/
@@ -560,6 +574,7 @@ footer:
 
   # 备案
   beian:
+    - name: 暂无备案
     # - name: 湘公网安备43048102000175号
     #   icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
     #   url: https://beian.mps.gov.cn/#/query/webSearch
@@ -568,6 +583,13 @@ footer:
 
   # 页脚信息文字
   links:
+     - name: License
+       url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
+       icon:
+         - fas fa-copyright
+         - fab fa-creative-commons-by
+         - fab fa-creative-commons-nc
+         - fab fa-creative-commons-nd
     # - name: RSS
     #   url: /atom.xml
     # - name: License
@@ -587,8 +609,8 @@ footer:
 # 404 页面
 errorpage:
   img: /img/404.avif
-  text: =awa= Page Not Found # Text
-  recommendList: true
+  text: 404了喔，你要找的东西已经被吃了 # Text
+  recommendList: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -597,16 +619,16 @@ errorpage:
 # can only use NetEase Cloud Music, QQ Music and other music platforms supported by the mainland China region,
 # the subsequent consideration of the use of JSON files to store music information and customize the implementation of the third-party API does not depend on the page.
 # Music Page
-meting_api: "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" # Custom API
+meting_api: "http://121.196.247.213:26000/api" # Custom API
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Capsule music
 # 音乐胶囊
 capsule:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
-  id: 5144842535
+  id: 14138017973
   # 服务商：netease / qq / xiami / kugou / baidu
   server: netease
   # 类型：playlist / song
@@ -680,7 +702,7 @@ highlight:
   expand: true
   # default: default / mac : apple terminal
   # default: 默认 / mac : 苹果终端
-  theme: mac
+  theme: default
   # default / solidity / dracula
   color: default
 # --------------------------- end ---------------------------
@@ -688,10 +710,10 @@ highlight:
 # --------------------------- start ---------------------------
 # Lightbox
 # 图片灯箱
-lightbox: false
+lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: false # fancybox
+fancybox: true # fancybox
 mediumZoom: false # mediumZoom
 # --------------------------- end ---------------------------
 
@@ -726,7 +748,7 @@ OpenGraph:
 # 字数统计
 # warning: Please install the hexo-wordcount plugin first.
 # 警告: 请先安装 hexo-wordcount 插件。
-wordcount: false
+wordcount: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -734,13 +756,13 @@ wordcount: false
 # Latex formula support
 # Latex 公式支持
 katex:
-  enable: false
+  enable: true
   # Whether to load on each page
   # 是否在每个页面加载
-  per_page: false
+  per_page: true
   # Whether to enable copy formula
   # 是否启用复制公式
-  copytex: false
+  copytex: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -796,21 +818,21 @@ pwa:
 comment:
   # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
-  use: # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
+  use: twikoo # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: false
+  commentBarrage: true
   # Lazy load
   # 懒加载评论区
-  lazyload: false
+  lazyload: true
   # Whether to display the comment count
   # 显示评论数
-  count: false
+  count: true
   # Sidebar displays the total number of comments
   # Sidebar 显示总评论数
-  sidebar: false
+  sidebar: true
   # PV
-  pv: false
+  pv: true
   # Avatar
   avatar: https://gravatar.com/avatar
   # Hot comment tips
@@ -827,7 +849,7 @@ comment:
     limit: 5 # 评论数 / Number of comments
 # Twikoo: https://solitude.js.org/comment/twikoo
 twikoo: # https://twikoo.js.org/
-  envId: # url: https://twikoo.sondy.top/
+  envId: http://121.196.247.213:26004/ # url: https://twikoo.sondy.top/
   region: # Environment locale, default is ap-shanghai, Tencent cloud environment fill ap-shanghai or ap-guangzhou; Vercel environment do not fill the.
   style: true # Use custom styles when turned on
   accessToken: # AccessToken

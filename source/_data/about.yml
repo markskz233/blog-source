@@ -8,7 +8,7 @@ authorinfo:
     - 独立开发者
     - AI探索者
     - 团队发动机
-  image: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/mk.jpg?sign=nhUtzQzmmhpWnR42UfIzJCvHNlFsw_7s_3yPiMMi8J8=:0
+  image: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/mk.jpg
 
 # 标题
 title: 关于我
@@ -36,7 +36,7 @@ skills: # 根据需求添加
   tags:
     - title: C++
       color: "#c04c8e"
-      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/C%2B%2B.png?sign=dXIfoeS0pustuWPlFhfAy6cNExEtntSCYiDXCCbTIHY=:0
+      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/C%2B%2B.png
     - title: JS
       color: "#f7cb4f"
       icon: fab fa-js
@@ -54,10 +54,10 @@ skills: # 根据需求添加
       icon: fab fa-python
     - title: PhotoShop
       color: "#4082c3"
-      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/photoshop.png?sign=PSqsN2S5983KTng5lj8H58P-5zkpDjtdXdqpaHfkASE=:0
+      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/photoshop.png
     - title: Premeire Pro
       color: "#e371ff"
-      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/Pr.png?sign=D6AyxuNW2ipjl7yiCdz28lTy4zsrYkaFpCEe70QY_Gs=:0
+      img: http://yoisakikanade.cn:9002/d/alist/Mark's%20Image/Pr.png
 
 # 生涯模块
 # 生涯模块和技能图标轮播模块在一行，如不写则技能图标轮播模块单独占满一行。
@@ -86,8 +86,8 @@ expertise:
 
 # 网站统计数据展示模块
 tj: # 统计
-  provider: custom # 值为 51la（51la网站统计）或 custom（自建统计）
-  url: https://umami-api.holyfox.net/ # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
+  provider: 51la # 值为 51la（51la网站统计）或 custom（自建统计）
+  url: //sdk.51.la/js-sdk-pro.min.js?id=3N9MGJbNrZQAYFDn&ck=3N9MGJbNrZQAYFDn # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
   img: https://i.p-i.vip/33/20250725-6883987819a97.webp # 背景
   desc: 本站采用自建数据统计
 
@@ -113,8 +113,6 @@ cause:
     <br>
     <b>因为闲的蛋疼_(:з」∠)_</b>
     <br>
-
-    
 
 # 十年之约
 tenyear:
