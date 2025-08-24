@@ -45,8 +45,14 @@ nav:
       全部文章: /archives/ || fas fa-folder-closed
       全部分类: /categories/ || fas fa-clone
       全部标签: /tags/ || fas fa-tags
+    其他:
+      每日随笔: /essay/ || fas fa-pen-nib
+      音乐馆: /music/ || fas fa-music
+      最近评论: /recentcomments/ || fas fa-comment
     关于:
       我的介绍: /about/ || fas fa-user
+      留言板: /message/ || fas fa-envelope
+      
     # 首页: / # name: link
     # 文库: # name
     #   全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
@@ -507,7 +513,7 @@ console:
     enable: true
     # Cache time 1: 1 day / .5 : half a day
     # 缓存时间 1: 1天 / .5 : 半天
-    storage: 30
+    storage: .2
   card:
     # Tags
     # 标签
@@ -821,10 +827,10 @@ comment:
   use: twikoo # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: true
+  commentBarrage: false
   # Lazy load
   # 懒加载评论区
-  lazyload: true
+  lazyload: false
   # Whether to display the comment count
   # 显示评论数
   count: true
@@ -832,7 +838,7 @@ comment:
   # Sidebar 显示总评论数
   sidebar: true
   # PV
-  pv: true
+  pv: false
   # Avatar
   avatar: https://gravatar.com/avatar
   # Hot comment tips
@@ -888,15 +894,15 @@ giscus:
 # --------------------------- start ---------------------------
 # Search
 search:
-  enable: false
-  type: # local / algolia / docsearch
+  enable: true
+  type: algolia # local / algolia / docsearch
   tags:
     # - Solitude
     # - Hexo
   # Algolia
   algolia:
-    # hits:
-    #   per_page: 6
+    hits:
+      per_page: 6
 
   # Local search
   local:
@@ -916,9 +922,9 @@ search:
 # Music Page
 # 音乐馆
 music:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
-  id: 5144842535
+  id: 14138017973
   # 服务商：netease / qq / xiami / kugou / baidu
   server: netease
   # 类型：playlist / song
@@ -935,7 +941,7 @@ music:
 # Danmaku Page
 # 弹幕留言页面
 envelope:
-  enable: false
+  enable: true
   line: 10 # 显示行数
   speed: 20 # 播放速度
   hover: true # 鼠标悬停暂停
@@ -947,9 +953,9 @@ envelope:
 # Brevity Page
 # 即可短文
 brevity:
-  enable: false
-  home_mini: false
-  music: false
+  enable: true
+  home_mini: true
+  music: true
   page: /essay/
   style: 1
   strip: 30
@@ -959,7 +965,7 @@ brevity:
 # Recent comments Page
 # 最近评论页面
 recent_comments:
-  enable: false
+  enable: true
   limit: 50 # ⚠️waline 仅支持最大50条评论 / ⚠️waline only supports a maximum of 50 comments
   cache: 0.2 # 1 = 1天 / 1 = 1 day
   page: /recentcomments/ # 最近评论页面 / recent comments page
