@@ -231,6 +231,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
+      - "http://yoisakikanade.cn:9002/d/alist/Mark's Image/404.jpg"
       # - /img/default.png # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
@@ -242,6 +243,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
+      - "http://yoisakikanade.cn:9002/d/alist/Mark's Image/404.jpg"
       # -  # 默认图片 / default cover
     # Location
     # 位置
@@ -324,7 +326,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: local
+    mode: api
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
