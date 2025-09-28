@@ -139,9 +139,10 @@ aside:
       img: http://yoisakikanade.cn:9002/d/alist/Mark's Image/mk.jpg # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 永远不要停下脚步，无限进步
+    description: 永不言弃，无限进步
     # 内容 / Content
-    content: # 这是我的博客 / This is my Blog
+    content: 这里有各种各样的分享，希望能够找到对你有用的东西。
+    # 这是我的博客 / This is my Blog
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
@@ -191,7 +192,7 @@ aside:
     postcount: true
     # Total number of words
     # 总字数
-    wordcount: false
+    wordcount: true
     # PV
     pv: true
     # UV
@@ -244,7 +245,7 @@ post:
       # -  # 默认图片 / default cover
     # Location
     # 位置
-    locate: China
+    locate: 浙江杭州
     # Copyright
     # 版权
     copyright:
@@ -260,7 +261,7 @@ post:
   # 文章本地AI
   ai:
     enable: false
-    modelName: 小七 GPT
+    modelName: GPT
   # Article meta information
   # 文章元信息
   meta:
@@ -272,7 +273,7 @@ post:
     updated: true
     # Location
     # 位置
-    locate: false
+    locate: true
     # Number of words
     # 字数
     wordcount: true
@@ -282,7 +283,7 @@ post:
     pv: true
     # Comment count
     # 评论数
-    comment: false
+    comment: true
   # Reward
   # 打赏
   award:
