@@ -321,7 +321,7 @@ post:
   # Article reading progress
   # 文章封面取色
   covercolor:
-    enable: false
+    enable: true
     # local: local color / api: api color / ave: oss average color
     mode: local
     # api address / api 地址
@@ -340,7 +340,7 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  dark: "#ffc848" # dark
+  dark: "#668af2" # dark
   light: "#425AEF" # light
 # --------------------------- end ---------------------------
 
@@ -350,10 +350,10 @@ theme_color:
 display_mode:
   # auto: automatic switching(Recognize the current theme mode of the device) / dark: dark mode / light: light mode
   # auto: 自动切换（识别设备当前主题模式） / dark: 深色模式 / light: 浅色模式
-  type: auto
+  type: dark
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: false
+  universe: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
