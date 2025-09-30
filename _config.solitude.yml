@@ -157,7 +157,6 @@ aside:
     # social
     # 社交信息图标
     information:
-      Github: https://github.com/markskz233 || fab fa-github
       QQ: https://qm.qq.com/q/5KhiUaMRnG || fab fa-qq
     #  Github: https://github.com/everfu || fab fa-github # Name: link || icon
     #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
@@ -367,7 +366,7 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: "PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+  font-family: 'DingTalk JinBuTi, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif'
   # Code font
   # 代码字体
   code-font-family: '"monospace", monospace'
@@ -696,7 +695,7 @@ highlight:
   expand: true
   # default: default / mac : apple terminal
   # default: 默认 / mac : 苹果终端
-  theme: default
+  theme: mac
   # default / solidity / dracula
   color: default
 # --------------------------- end ---------------------------
@@ -784,6 +783,8 @@ extends:
   # Insert in head
   # 插入到 head
   head:
+    - <link rel="preload" href="/fonts/DingTalkJinBuTi.woff2" as="font" type="font/woff2" crossorigin>
+    - <link rel="stylesheet" href="/css/font-dingtalk.css">
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 
   # Insert in body
